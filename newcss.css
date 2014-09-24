@@ -1,0 +1,174 @@
+.logo {
+    width: 450px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 700px;
+}
+.imgcontainer {
+    position: absolute;
+    z-index: 101;
+}
+.menuicon {
+    width: 60px;
+    margin-top: -10px;
+}
+
+.topmenu {
+    display: inline-block;
+    margin-right: 3%;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font-weight: bold;
+    
+}
+.topmenu:hover {
+    font-weight: bold;
+    color: red;
+}
+#active {
+    color: red;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+#topmenu {
+    position: fixed;
+    width: 100%;
+    margin-left: -2%;
+    text-align: center;
+    padding: 1%;
+    height: 4%;
+    margin-top: -1%;
+    z-index: 100;
+}
+#opacity {
+    position: fixed;
+    width: 100%;
+    margin-left: -2%;
+    text-align: center;
+    padding: 1%;
+    height: 4%;
+    margin-top: -1%;
+    background-color: #cc1a1a;
+    opacity: 0.9;
+    z-index: 99;
+}
+body {
+    background-color: #D4D4D4;
+    font-family: Verdana;
+}
+.nolink {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 11px;
+}
+.nolink:hover {
+    color: red;
+    background-color: white;
+}
+td {
+    max-width: 400px;
+}
+body {
+    margin: 0;
+        padding: 0;
+        height: 100%;
+}
+.imgwidth {
+    max-width: 200px;
+    display: block;
+    
+}
+.actueel {
+    display: inline-block;
+    padding-right: 20px;
+}
+#actueeltext {
+    color: rgba(220, 0, 0, 0.75);
+    font-size: 60px;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 60px;
+}
+
+.jumbotron {
+    width: 100%;  
+    heigth: 500px;
+    position: relative;
+}
+
+.table {
+    margin-top: 1000px;
+    background-color: orange;
+}
+
+.headerM {
+background-color: #FFC600;
+font-family: Verdana;
+}
+
+.homebutton{
+    width: 45px;
+}
+
+.knoppenM {
+color: #900;
+font-weight: bold;
+}
+
+.textM {
+font-family: Verdana;
+}
+
+.tableM {
+border-collapse:collapse;
+margin-top: 0px;
+margin-left: 30%;
+position: absolute;
+border: 3px solid #FFC600;
+}
+
+.tdM {
+border: none;
+outline: none;
+color: white;
+}
+
+/* FILMS */
+.jump {
+    width: 200px;
+}
+
+.notebook {
+    width: 200px;
+}
+
+.hobbit {
+    width: 200px;
+}
+
+.pearl {
+    width: 200px;
+}
+
+.inception {
+    width: 200px;
+}
+
+.info {
+    color: white;
+    position: fixed;
+    margin-top: 800px;
+    margin-left: 45%;
+    z-index: 2;
+}
+
+body {
+    background-color: black;
+}

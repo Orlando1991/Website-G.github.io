@@ -1,0 +1,95 @@
+.logo {
+    width: 220px;
+    position: fixed;
+    z-index: 102;
+    margin-top: -45px;
+}
+.imgcontainer {
+    position: absolute;
+    z-index: 101;
+}
+.menuicon {
+    width: 60px;
+    margin-top: -10px;
+}
+
+.topmenu {
+    display: inline-block;
+    margin-right: 3%;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font-weight: bold;
+    
+}
+.topmenu:hover {
+    font-weight: bold;
+    color: red;
+}
+#active {
+    color: red;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+#topmenu {
+    position: fixed;
+    width: 100%;
+    margin-left: -2%;
+    text-align: center;
+    padding: 1%;
+    height: 4%;
+    margin-top: -1%;
+    z-index: 100;
+}
+#opacity {
+    position: fixed;
+    width: 100%;
+    margin-left: -2%;
+    text-align: center;
+    padding: 1%;
+    height: 4%;
+    margin-top: -1%;
+    background-color: #cc1a1a;
+    opacity: 0.9;
+    z-index: 99;
+}
+body {
+    background-color: #D4D4D4;
+    font-family: Verdana;
+}
+.nolink {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+.nolink:hover {
+    color: red;
+    background-color: white;
+}
+td {
+    max-width: 400px;
+}
+body {
+    margin: 0;
+        padding: 0;
+        height: 100%;
+}
+.vidbg {
+    position: absolute;
+    height: 630px;
+    width: 1000px;
+    margin-left: 450px;;
+    margin-top: 200px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #969696;
+}
+iframe {
+    margin-left: 70px;
+    margin-top: 60px;
+}

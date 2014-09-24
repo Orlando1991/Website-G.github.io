@@ -1,0 +1,246 @@
+.imgcontainer {
+    position: absolute;
+    z-index: 101;
+}
+.menuicon {
+    width: 60px;
+    margin-top: -10px;
+}
+.logo {
+    width: 220px;
+    position: fixed;
+    z-index: 102;
+    margin-top: -45px;
+}
+.topmenu {
+    display: inline-block;
+    margin-right: 3%;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font-weight: bold;
+    
+}
+.topmenu:hover {
+    font-weight: bold;
+    color: red;
+}
+#active {
+    color: red;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+#topmenu {
+    position: fixed;
+    width: 100%;
+    margin-left: -2%;
+    text-align: center;
+    padding: 1%;
+    height: 4%;
+    margin-top: -1%;
+    z-index: 100;
+}
+#opacity {
+    position: fixed;
+    width: 100%;
+    margin-left: -2%;
+    text-align: center;
+    padding: 1%;
+    height: 4%;
+    margin-top: -1%;
+    background-color: #cc1a1a;
+    opacity: 0.9;
+    z-index: 99;
+}
+body {
+    background-color: #D4D4D4;
+    font-family: Verdana;
+}
+.nolink {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+.nolink:hover {
+    color: red;
+    background-color: white;
+}
+td {
+    max-width: 400px;
+}
+body {
+    margin: 0;
+        padding: 0;
+        height: 100%;
+}
+.imgwidth {
+    max-width: 200px;
+    display: block;
+    
+}
+.actueel {
+    display: inline-block;
+    padding-right: 20px;
+}
+#actueeltext {
+    color: rgba(220, 0, 0, 0.75);
+    font-size: 60px;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 60px;
+}
+
+figure {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+
+}
+figcaption {
+    position: absolute;
+    background: rgba(220, 0, 0, 0.75);
+    color: white;
+    padding: 10px 20px;
+    height: 279px;
+    opacity: 0;
+    bottom: 0;
+    width: 200px;
+    left: -30%;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+}
+figure:hover figcaption {
+    opacity: 1;
+    left: 0;
+    width: 200px;
+    height: 279px;
+}
+imgwidth2 {
+    width: 200px;
+} 
+.hoverE {
+    margin-top: 240px;
+    position: absolute;
+}
+.titletext {
+    font-size: 20px;
+    
+}
+.imgactueel {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+    margin-top: 200px;
+}
+.imgvanvol{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+    margin-top: 740px;
+}
+.reserveer {
+    position: absolute;
+    background: rgba(220, 220, 220, 1);
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 160px;
+    margin-left: 40px;
+    border-style: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.reserveer:hover {
+
+}
+.details {
+    position: absolute;
+    background: rgba(220, 220, 220, 1);
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-left: 50px;
+    border-style: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.vanVol {
+    color: rgba(220, 0, 0, 0.75);
+    font-size: 60px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 60px;
+}
+.volgendelijst {
+    position: absolute;
+    margin-top: 780px;
+}
+.vanma {
+    color: rgba(220, 0, 0, 0.75);
+    font-size: 60px;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 1170px;
+}
+.volmaand {
+    position: absolute;
+    margin-top: 1330px;
+}
+.imgvolma {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+    margin-top: 1290px;
+}
+/* popup */
+#cover { 
+    position:fixed; 
+    top:0; 
+    left:0; 
+    background:rgba(0,0,0,0.6); 
+    z-index:5; width:100%; height:100%; 
+    display:none; 
+} 
+#loginScreen { 
+    height:380px; 
+    width:340px; 
+    margin:0 auto; 
+    position:relative; 
+    z-index:10; 
+    display:none; 
+    background: url(login.png) no-repeat; 
+    border:5px solid #cccccc; 
+    border-radius:10px; 
+} 
+#loginScreen:target, #loginScreen:target + #cover { 
+    display:block; 
+    opacity:2; 
+} 
+.cancel { 
+    display:block; 
+    position:absolute; 
+    top:3px; 
+    right:2px; 
+    background:rgb(245,245,245); 
+    color:black; 
+    height:30px; 
+    width:35px; 
+    font-size:30px; 
+    text-decoration:none; 
+    text-align:center; 
+    font-weight:bold; 
+}
